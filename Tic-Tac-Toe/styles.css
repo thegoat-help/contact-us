@@ -1,0 +1,403 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated style to move Player X score to the left */
+#playerXScore {
+    text-align: left;
+}
+
+#playerOScore {
+    text-align: right;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated style to move Player X score to the left */
+#playerXScore {
+    text-align: left;
+    float: left;
+    margin-right: 10px;
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated style to move Player X score to the left */
+#playerXScore {
+    text-align: left;
+    float: left;
+    margin-right: 10px;
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated style to move Player X score to the left corner */
+#playerXScore {
+    text-align: left;
+    float: none;
+    margin-right: 0;
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated style to move Player X score to the left corner */
+#playerXScore {
+    text-align: left;
+    float: none;
+    margin-right: 0;
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom right, purple, blue);
+    font-family: 'Pacifico', cursive; /* Use the Pacifico font */
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.reset-btn {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    font-family: 'Pacifico', cursive; /* Use the Pacifico font */
+}
+
+/* Updated style to move Player X score to the left corner */
+#playerXScore {
+    text-align: left;
+    float: none;
+    margin-right: 0;
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+}
+/* Updated style to move Player X score to the left side */
+#playerXScore {
+    text-align: left;
+    float: left;
+    margin-right: 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: gold; /* Change the text color to gold */
+}
+
+#playerOScore {
+    text-align: right;
+    float: right;
+    margin-left: 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: gold; /* Change the text color to gold */
+}
+

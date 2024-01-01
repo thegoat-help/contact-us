@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="board" class="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div id="result" class="result"></div>
+        <button id="resetBtn" class="reset-btn">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!-- Add these elements within the <div class="container"> in index.html -->
+<div id="playerXScore" class="score">Player X: 0</div>
+<div id="playerOScore" class="score">Player O: 0</div>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add your existing head content here -->
+</head>
+<body>
+    <!-- Existing content of your website -->
+
+    <!-- Add this button wherever you want on your page -->
+    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 999;">
+        <button onclick="openContactUsPage()">Contact Us</button>
+    </div>
+
+    <script>
+        function openContactUsPage() {
+            // Redirect the user to the specified contact us page
+            window.location.href = "https://contactus.tiiny.site";
+        }
+    </script>
+</body>
+</html>
